@@ -1,3 +1,4 @@
 ./files/credentials.ini
 ./files/justforfun/justforfun/local_settings.py
 *.pyc
+./files/env/*

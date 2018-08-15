@@ -26,7 +26,7 @@ from .local_settings import *
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["justforfun.ricardo.azevem.com"]
+ALLOWED_HOSTS = ["justforfun.ricardo.azevem.com", "localhost"]
 
 
 # Application definition
