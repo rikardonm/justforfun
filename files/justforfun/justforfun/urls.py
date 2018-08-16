@@ -20,5 +20,6 @@ from justforfun import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('login', views.login),
+    re_path(r'^login/$', views.login, name='login'),
+    re_path(r'^logout/$', views.logout, name='logout')
 ]
